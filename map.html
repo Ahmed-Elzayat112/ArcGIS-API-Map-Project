@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ArcGIS Web Page</title>
+        <link
+            rel="stylesheet"
+            href="https://js.arcgis.com/4.24/esri/themes/light/main.css"
+        />
+        <script src="https://js.arcgis.com/4.24/"></script>
+        <style>
+            #mapViewDiv,
+            #sceneViewDiv {
+                height: 100vh;
+                width: 100%;
+                float: left;
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mapViewDiv"></div>
+
+        <script>
+            require([
+                "esri/Map",
+                "esri/views/MapView",
+                "esri/widgets/Search",
+                "esri/widgets/Locate",
+            ], function (Map, MapView, Search, Locate) {
+                // Create a map
+                var map = new Map({
+                    basemap: "topo-vector",
+                });
+
+                // Create a map view
+                var mapView = new MapView({
+                    container: "mapViewDiv",
+                    map: map,
+                    zoom: 10,
+                    center: [31.814444, 31.41754], // Longitude, Latitude
+                });
+
+                // Add search widget
+                var searchWidget = new Search({
+                    view: mapView,
+                });
+                mapView.ui.add(searchWidget, "top-right");
+
+                // Add locate widget
+                var locateWidget = new Locate({
+                    view: mapView,
+                });
+                mapView.ui.add(locateWidget, "top-left");
+            });
+        </script>
+    </body>
+</html>
