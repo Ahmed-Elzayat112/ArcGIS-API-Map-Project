@@ -67,3 +67,11 @@ If you have any questions or suggestions, feel free to reach out:
 GitHub: Ahmed-Elzayat112
 
 [LinkedIn](https://www.linkedin.com/in/ahmed-elzayat-a83047237/)
+
+## Resources
+You will find Pdf file has a toturial 
+
+![image](https://github.com/Ahmed-Elzayat112/ArcGIS-API-Map-Project/assets/113038956/fdc5cc5a-e439-412f-af9f-eede4601b145)
+
+![image](https://github.com/Ahmed-Elzayat112/ArcGIS-API-Map-Project/assets/113038956/30c4f2d0-5327-4f7c-a115-478f1306118f)
+
