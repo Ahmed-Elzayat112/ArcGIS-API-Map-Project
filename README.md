@@ -66,4 +66,4 @@ If you have any questions or suggestions, feel free to reach out:
 
 GitHub: Ahmed-Elzayat112
 
-[LinkedIn: ](https://www.linkedin.com/in/ahmed-elzayat-a83047237/)
+[LinkedIn](https://www.linkedin.com/in/ahmed-elzayat-a83047237/)
